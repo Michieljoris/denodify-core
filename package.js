@@ -30,7 +30,7 @@ module.exports = {
     // We know it is JavaScript for Node.
     "name": "denodify-core",
     // A single line, or sometimes slightly longer, description of our package.
-    "description": "",
+    "description": "nodejs core modules adapted for denodify",
     // [npm](http://npmjs.org) enforces the X.Y.Z semantic version 
     // scheme that is described at [http://semver.org/](http://semver.org/)
     // and we should follow this versioning for our package.

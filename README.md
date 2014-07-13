@@ -1,6 +1,16 @@
 project
 --------
 
+# STUB
+
+This is a stub for future work to be done on adapting the nodejs core modules as
+found in
+[node-browser-builtins](https://github.com/alexgorbatchev/node-browser-builtins)
+to be used with [denodify](http://github.com/michieljoris/denodify).
+
+The whole node-browser-builtins repo is added as is for now to this repo till
+I've adapted them.
+
 [Description]
 
 Install:

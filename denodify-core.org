@@ -1,4 +1,8 @@
 * good to know
 
 * bugs
+  
+* TODO
+** Adapt core modules for use with denodify
+These modules are originally adapted for browserify, and cloned from node-browser-builtins
 

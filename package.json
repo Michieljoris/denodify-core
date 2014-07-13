@@ -1,6 +1,6 @@
 {
   "name": "denodify-core",
-  "description": "",
+  "description": "nodejs core modules adapted for denodify",
   "homepage": "https://github.com/michieljoris/denodify-core",
   "keywords": [],
   "repository": {
@@ -33,5 +33,5 @@
   "scripts": {
     "docs": "node node_modules/.bin/docco src/denodify-core.js"
   },
-  "version": "0.1.1"
+  "version": "0.1.2"
 }

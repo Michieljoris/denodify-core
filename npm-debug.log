@@ -1,0 +1,390 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/michieljoris/bin/node',
+1 verbose cli   '/home/michieljoris/bin/npm',
+1 verbose cli   'publish' ]
+2 info using npm@1.4.9
+3 info using node@v0.10.28
+4 verbose node symlink /home/michieljoris/bin/node
+5 verbose publish [ '.' ]
+6 verbose cache add [ '.', null ]
+7 verbose cache add name=undefined spec="." args=[".",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: '.',
+8 verbose parsed url   path: '.',
+8 verbose parsed url   href: '.' }
+9 silly lockFile 3a52ce78- .
+10 verbose lock . /home/michieljoris/.npm/3a52ce78-.lock
+11 verbose tar pack [ '/home/michieljoris/tmp/npm-25008-Dmq43nTF/1416881780120-0.4737190611194819/tmp.tgz',
+11 verbose tar pack   '.' ]
+12 verbose tarball /home/michieljoris/tmp/npm-25008-Dmq43nTF/1416881780120-0.4737190611194819/tmp.tgz
+13 verbose folder .
+14 info prepublish denodify-core@0.1.8
+15 silly lockFile 1f1177db-tar tar://.
+16 verbose lock tar://. /home/michieljoris/.npm/1f1177db-tar.lock
+17 silly lockFile 78dfc123-80120-0-4737190611194819-tmp-tgz tar:///home/michieljoris/tmp/npm-25008-Dmq43nTF/1416881780120-0.4737190611194819/tmp.tgz
+18 verbose lock tar:///home/michieljoris/tmp/npm-25008-Dmq43nTF/1416881780120-0.4737190611194819/tmp.tgz /home/michieljoris/.npm/78dfc123-80120-0-4737190611194819-tmp-tgz.lock
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile 1f1177db-tar tar://.
+21 silly lockFile 78dfc123-80120-0-4737190611194819-tmp-tgz tar:///home/michieljoris/tmp/npm-25008-Dmq43nTF/1416881780120-0.4737190611194819/tmp.tgz
+22 silly lockFile 78dfc123-80120-0-4737190611194819-tmp-tgz tar:///home/michieljoris/tmp/npm-25008-Dmq43nTF/1416881780120-0.4737190611194819/tmp.tgz
+23 verbose tar unpack /home/michieljoris/tmp/npm-25008-Dmq43nTF/1416881780120-0.4737190611194819/tmp.tgz
+24 silly lockFile b7035e8d--npm-denodify-core-0-1-8-package tar:///home/michieljoris/.npm/denodify-core/0.1.8/package
+25 verbose lock tar:///home/michieljoris/.npm/denodify-core/0.1.8/package /home/michieljoris/.npm/b7035e8d--npm-denodify-core-0-1-8-package.lock
+26 silly lockFile 78dfc123-80120-0-4737190611194819-tmp-tgz tar:///home/michieljoris/tmp/npm-25008-Dmq43nTF/1416881780120-0.4737190611194819/tmp.tgz
+27 verbose lock tar:///home/michieljoris/tmp/npm-25008-Dmq43nTF/1416881780120-0.4737190611194819/tmp.tgz /home/michieljoris/.npm/78dfc123-80120-0-4737190611194819-tmp-tgz.lock
+28 silly gunzTarPerm modes [ '755', '644' ]
+29 silly gunzTarPerm extractEntry package.json
+30 silly gunzTarPerm modified mode [ 'package.json', 488, 492 ]
+31 silly gunzTarPerm extractEntry .npmignore
+32 silly gunzTarPerm modified mode [ '.npmignore', 488, 492 ]
+33 silly gunzTarPerm extractEntry README.md
+34 silly gunzTarPerm modified mode [ 'README.md', 488, 492 ]
+35 silly gunzTarPerm extractEntry package.js
+36 silly gunzTarPerm modified mode [ 'package.js', 488, 492 ]
+37 silly gunzTarPerm extractEntry bin/docs
+38 silly gunzTarPerm modified mode [ 'bin/docs', 488, 492 ]
+39 silly gunzTarPerm extractEntry denodify-core.org
+40 silly gunzTarPerm modified mode [ 'denodify-core.org', 488, 492 ]
+41 silly gunzTarPerm extractEntry docs/custom.css
+42 silly gunzTarPerm modified mode [ 'docs/custom.css', 488, 492 ]
+43 silly gunzTarPerm extractEntry docs/denodify-core.html
+44 silly gunzTarPerm modified mode [ 'docs/denodify-core.html', 488, 492 ]
+45 silly gunzTarPerm extractEntry docs/docco.css
+46 silly gunzTarPerm modified mode [ 'docs/docco.css', 488, 492 ]
+47 silly gunzTarPerm extractEntry docs/public/fonts/aller-bold.eot
+48 silly gunzTarPerm modified mode [ 'docs/public/fonts/aller-bold.eot', 488, 492 ]
+49 silly gunzTarPerm extractEntry docs/public/fonts/aller-bold.ttf
+50 silly gunzTarPerm modified mode [ 'docs/public/fonts/aller-bold.ttf', 488, 492 ]
+51 silly gunzTarPerm extractEntry docs/public/fonts/aller-bold.woff
+52 silly gunzTarPerm modified mode [ 'docs/public/fonts/aller-bold.woff', 488, 492 ]
+53 silly gunzTarPerm extractEntry docs/public/fonts/aller-light.eot
+54 silly gunzTarPerm modified mode [ 'docs/public/fonts/aller-light.eot', 488, 492 ]
+55 silly gunzTarPerm extractEntry docs/public/fonts/aller-light.ttf
+56 silly gunzTarPerm modified mode [ 'docs/public/fonts/aller-light.ttf', 488, 492 ]
+57 silly gunzTarPerm extractEntry docs/public/fonts/aller-light.woff
+58 silly gunzTarPerm modified mode [ 'docs/public/fonts/aller-light.woff', 488, 492 ]
+59 silly gunzTarPerm extractEntry docs/public/fonts/novecento-bold.eot
+60 silly gunzTarPerm modified mode [ 'docs/public/fonts/novecento-bold.eot', 488, 492 ]
+61 silly gunzTarPerm extractEntry docs/public/fonts/novecento-bold.ttf
+62 silly gunzTarPerm modified mode [ 'docs/public/fonts/novecento-bold.ttf', 488, 492 ]
+63 silly gunzTarPerm extractEntry docs/public/fonts/novecento-bold.woff
+64 silly gunzTarPerm modified mode [ 'docs/public/fonts/novecento-bold.woff', 488, 492 ]
+65 silly gunzTarPerm extractEntry docs/public/stylesheets/normalize.css
+66 silly gunzTarPerm modified mode [ 'docs/public/stylesheets/normalize.css', 488, 492 ]
+67 silly gunzTarPerm extractEntry node-browser-builtins/package.json
+68 silly gunzTarPerm modified mode [ 'node-browser-builtins/package.json', 488, 492 ]
+69 silly gunzTarPerm extractEntry node-browser-builtins/README.md
+70 silly gunzTarPerm modified mode [ 'node-browser-builtins/README.md', 488, 492 ]
+71 silly gunzTarPerm extractEntry node-browser-builtins/LICENSE
+72 silly gunzTarPerm modified mode [ 'node-browser-builtins/LICENSE', 488, 492 ]
+73 silly gunzTarPerm extractEntry node-browser-builtins/index.js
+74 silly gunzTarPerm modified mode [ 'node-browser-builtins/index.js', 488, 492 ]
+75 silly gunzTarPerm extractEntry node-browser-builtins/builtin/_shims.js
+76 silly gunzTarPerm modified mode [ 'node-browser-builtins/builtin/_shims.js', 488, 492 ]
+77 silly gunzTarPerm extractEntry node-browser-builtins/builtin/domain.js
+78 silly gunzTarPerm modified mode [ 'node-browser-builtins/builtin/domain.js', 488, 492 ]
+79 silly gunzTarPerm extractEntry node-browser-builtins/builtin/events.js
+80 silly gunzTarPerm modified mode [ 'node-browser-builtins/builtin/events.js', 488, 492 ]
+81 silly gunzTarPerm extractEntry node-browser-builtins/builtin/fs.js
+82 silly gunzTarPerm modified mode [ 'node-browser-builtins/builtin/fs.js', 488, 492 ]
+83 silly gunzTarPerm extractEntry node-browser-builtins/builtin/https.js
+84 silly gunzTarPerm modified mode [ 'node-browser-builtins/builtin/https.js', 488, 492 ]
+85 silly gunzTarPerm extractEntry node-browser-builtins/builtin/dns.js
+86 silly gunzTarPerm modified mode [ 'node-browser-builtins/builtin/dns.js', 488, 492 ]
+87 silly gunzTarPerm extractEntry node-browser-builtins/builtin/net.js
+88 silly gunzTarPerm modified mode [ 'node-browser-builtins/builtin/net.js', 488, 492 ]
+89 silly gunzTarPerm extractEntry node-browser-builtins/builtin/path.js
+90 silly gunzTarPerm modified mode [ 'node-browser-builtins/builtin/path.js', 488, 492 ]
+91 silly gunzTarPerm extractEntry node-browser-builtins/builtin/process.js
+92 silly gunzTarPerm modified mode [ 'node-browser-builtins/builtin/process.js', 488, 492 ]
+93 silly gunzTarPerm extractEntry node-browser-builtins/builtin/querystring.js
+94 silly gunzTarPerm modified mode [ 'node-browser-builtins/builtin/querystring.js', 488, 492 ]
+95 silly gunzTarPerm extractEntry node-browser-builtins/builtin/readline.js
+96 silly gunzTarPerm modified mode [ 'node-browser-builtins/builtin/readline.js', 488, 492 ]
+97 silly gunzTarPerm extractEntry node-browser-builtins/builtin/dgram.js
+98 silly gunzTarPerm modified mode [ 'node-browser-builtins/builtin/dgram.js', 488, 492 ]
+99 silly gunzTarPerm extractEntry node-browser-builtins/builtin/repl.js
+100 silly gunzTarPerm modified mode [ 'node-browser-builtins/builtin/repl.js', 488, 492 ]
+101 silly gunzTarPerm extractEntry node-browser-builtins/builtin/cluster.js
+102 silly gunzTarPerm modified mode [ 'node-browser-builtins/builtin/cluster.js', 488, 492 ]
+103 silly gunzTarPerm extractEntry node-browser-builtins/builtin/stream.js
+104 silly gunzTarPerm modified mode [ 'node-browser-builtins/builtin/stream.js', 488, 492 ]
+105 silly gunzTarPerm extractEntry node-browser-builtins/builtin/child_process.js
+106 silly gunzTarPerm modified mode [ 'node-browser-builtins/builtin/child_process.js', 488, 492 ]
+107 silly gunzTarPerm extractEntry node-browser-builtins/builtin/string_decoder.js
+108 silly gunzTarPerm modified mode [ 'node-browser-builtins/builtin/string_decoder.js', 488, 492 ]
+109 silly gunzTarPerm extractEntry node-browser-builtins/builtin/assert.js
+110 silly gunzTarPerm modified mode [ 'node-browser-builtins/builtin/assert.js', 488, 492 ]
+111 silly gunzTarPerm extractEntry node-browser-builtins/builtin/sys.js
+112 silly gunzTarPerm modified mode [ 'node-browser-builtins/builtin/sys.js', 488, 492 ]
+113 silly gunzTarPerm extractEntry node-browser-builtins/builtin/_stream_writable.js
+114 silly gunzTarPerm modified mode [ 'node-browser-builtins/builtin/_stream_writable.js', 488, 492 ]
+115 silly gunzTarPerm extractEntry node-browser-builtins/builtin/timers.js
+116 silly gunzTarPerm modified mode [ 'node-browser-builtins/builtin/timers.js', 488, 492 ]
+117 silly gunzTarPerm extractEntry node-browser-builtins/builtin/_stream_transform.js
+118 silly gunzTarPerm modified mode [ 'node-browser-builtins/builtin/_stream_transform.js',
+118 silly gunzTarPerm   488,
+118 silly gunzTarPerm   492 ]
+119 silly gunzTarPerm extractEntry node-browser-builtins/builtin/tls.js
+120 silly gunzTarPerm modified mode [ 'node-browser-builtins/builtin/tls.js', 488, 492 ]
+121 silly gunzTarPerm extractEntry node-browser-builtins/builtin/_stream_readable.js
+122 silly gunzTarPerm modified mode [ 'node-browser-builtins/builtin/_stream_readable.js', 488, 492 ]
+123 silly gunzTarPerm extractEntry node-browser-builtins/builtin/tty.js
+124 silly gunzTarPerm modified mode [ 'node-browser-builtins/builtin/tty.js', 488, 492 ]
+125 silly gunzTarPerm extractEntry node-browser-builtins/builtin/_stream_passthrough.js
+126 silly gunzTarPerm modified mode [ 'node-browser-builtins/builtin/_stream_passthrough.js',
+126 silly gunzTarPerm   488,
+126 silly gunzTarPerm   492 ]
+127 silly gunzTarPerm extractEntry node-browser-builtins/builtin/url.js
+128 silly gunzTarPerm modified mode [ 'node-browser-builtins/builtin/url.js', 488, 492 ]
+129 silly gunzTarPerm extractEntry node-browser-builtins/builtin/_stream_duplex.js
+130 silly gunzTarPerm modified mode [ 'node-browser-builtins/builtin/_stream_duplex.js', 488, 492 ]
+131 silly gunzTarPerm extractEntry node-browser-builtins/builtin/util.js
+132 silly gunzTarPerm modified mode [ 'node-browser-builtins/builtin/util.js', 488, 492 ]
+133 silly gunzTarPerm extractEntry node-browser-builtins/builtin/module.js
+134 silly gunzTarPerm modified mode [ 'node-browser-builtins/builtin/module.js', 488, 492 ]
+135 silly gunzTarPerm extractEntry node-browser-builtins/test/browser/assert-simple.js
+136 silly gunzTarPerm modified mode [ 'node-browser-builtins/test/browser/assert-simple.js',
+136 silly gunzTarPerm   488,
+136 silly gunzTarPerm   492 ]
+137 silly gunzTarPerm extractEntry node-browser-builtins/test/browser/stream-readable-event.js
+138 silly gunzTarPerm modified mode [ 'node-browser-builtins/test/browser/stream-readable-event.js',
+138 silly gunzTarPerm   488,
+138 silly gunzTarPerm   492 ]
+139 silly gunzTarPerm extractEntry node-browser-builtins/test/browser/stream-readable-flow-recursion.js
+140 silly gunzTarPerm modified mode [ 'node-browser-builtins/test/browser/stream-readable-flow-recursion.js',
+140 silly gunzTarPerm   488,
+140 silly gunzTarPerm   492 ]
+141 silly gunzTarPerm extractEntry node-browser-builtins/test/browser/stream-unshift-empty-chunk.js
+142 silly gunzTarPerm modified mode [ 'node-browser-builtins/test/browser/stream-unshift-empty-chunk.js',
+142 silly gunzTarPerm   488,
+142 silly gunzTarPerm   492 ]
+143 silly gunzTarPerm extractEntry node-browser-builtins/test/browser/stream-push-strings.js
+144 silly gunzTarPerm modified mode [ 'node-browser-builtins/test/browser/stream-push-strings.js',
+144 silly gunzTarPerm   488,
+144 silly gunzTarPerm   492 ]
+145 silly gunzTarPerm extractEntry node-browser-builtins/test/browser/stream2-basic.js
+146 silly gunzTarPerm modified mode [ 'node-browser-builtins/test/browser/stream2-basic.js',
+146 silly gunzTarPerm   488,
+146 silly gunzTarPerm   492 ]
+147 silly gunzTarPerm extractEntry node-browser-builtins/test/browser/stream2-compatibility.js
+148 silly gunzTarPerm modified mode [ 'node-browser-builtins/test/browser/stream2-compatibility.js',
+148 silly gunzTarPerm   488,
+148 silly gunzTarPerm   492 ]
+149 silly gunzTarPerm extractEntry node-browser-builtins/test/browser/stream2-finish-pipe.js
+150 silly gunzTarPerm modified mode [ 'node-browser-builtins/test/browser/stream2-finish-pipe.js',
+150 silly gunzTarPerm   488,
+150 silly gunzTarPerm   492 ]
+151 silly gunzTarPerm extractEntry node-browser-builtins/test/browser/stream2-large-read-stall.js
+152 silly gunzTarPerm modified mode [ 'node-browser-builtins/test/browser/stream2-large-read-stall.js',
+152 silly gunzTarPerm   488,
+152 silly gunzTarPerm   492 ]
+153 silly gunzTarPerm extractEntry node-browser-builtins/test/browser/stream2-objects.js
+154 silly gunzTarPerm modified mode [ 'node-browser-builtins/test/browser/stream2-objects.js',
+154 silly gunzTarPerm   488,
+154 silly gunzTarPerm   492 ]
+155 silly gunzTarPerm extractEntry node-browser-builtins/test/browser/stream-push-order.js
+156 silly gunzTarPerm modified mode [ 'node-browser-builtins/test/browser/stream-push-order.js',
+156 silly gunzTarPerm   488,
+156 silly gunzTarPerm   492 ]
+157 silly gunzTarPerm extractEntry node-browser-builtins/test/browser/stream2-pipe-error-handling.js
+158 silly gunzTarPerm modified mode [ 'node-browser-builtins/test/browser/stream2-pipe-error-handling.js',
+158 silly gunzTarPerm   488,
+158 silly gunzTarPerm   492 ]
+159 silly gunzTarPerm extractEntry node-browser-builtins/test/browser/stream-pipe-event.js
+160 silly gunzTarPerm modified mode [ 'node-browser-builtins/test/browser/stream-pipe-event.js',
+160 silly gunzTarPerm   488,
+160 silly gunzTarPerm   492 ]
+161 silly gunzTarPerm extractEntry node-browser-builtins/test/browser/stream2-push.js
+162 silly gunzTarPerm modified mode [ 'node-browser-builtins/test/browser/stream2-push.js',
+162 silly gunzTarPerm   488,
+162 silly gunzTarPerm   492 ]
+163 silly gunzTarPerm extractEntry node-browser-builtins/test/browser/stream-pipe-error-handling.js
+164 silly gunzTarPerm modified mode [ 'node-browser-builtins/test/browser/stream-pipe-error-handling.js',
+164 silly gunzTarPerm   488,
+164 silly gunzTarPerm   492 ]
+165 silly gunzTarPerm extractEntry node-browser-builtins/test/browser/stream2-read-sync-stack.js
+166 silly gunzTarPerm modified mode [ 'node-browser-builtins/test/browser/stream2-read-sync-stack.js',
+166 silly gunzTarPerm   488,
+166 silly gunzTarPerm   492 ]
+167 silly gunzTarPerm extractEntry node-browser-builtins/test/browser/stream-pipe-cleanup.js
+168 silly gunzTarPerm modified mode [ 'node-browser-builtins/test/browser/stream-pipe-cleanup.js',
+168 silly gunzTarPerm   488,
+168 silly gunzTarPerm   492 ]
+169 silly gunzTarPerm extractEntry node-browser-builtins/test/browser/stream2-readable-empty-buffer-no-eof.js
+170 silly gunzTarPerm modified mode [ 'node-browser-builtins/test/browser/stream2-readable-empty-buffer-no-eof.js',
+170 silly gunzTarPerm   488,
+170 silly gunzTarPerm   492 ]
+171 silly gunzTarPerm extractEntry node-browser-builtins/test/browser/stream-pipe-after-end.js
+172 silly gunzTarPerm modified mode [ 'node-browser-builtins/test/browser/stream-pipe-after-end.js',
+172 silly gunzTarPerm   488,
+172 silly gunzTarPerm   492 ]
+173 silly gunzTarPerm extractEntry node-browser-builtins/test/browser/stream2-readable-from-list.js
+174 silly gunzTarPerm modified mode [ 'node-browser-builtins/test/browser/stream2-readable-from-list.js',
+174 silly gunzTarPerm   488,
+174 silly gunzTarPerm   492 ]
+175 silly gunzTarPerm extractEntry node-browser-builtins/test/browser/stream-big-push.js
+176 silly gunzTarPerm modified mode [ 'node-browser-builtins/test/browser/stream-big-push.js',
+176 silly gunzTarPerm   488,
+176 silly gunzTarPerm   492 ]
+177 silly gunzTarPerm extractEntry node-browser-builtins/test/browser/stream2-readable-legacy-drain.js
+178 silly gunzTarPerm modified mode [ 'node-browser-builtins/test/browser/stream2-readable-legacy-drain.js',
+178 silly gunzTarPerm   488,
+178 silly gunzTarPerm   492 ]
+179 silly gunzTarPerm extractEntry node-browser-builtins/test/browser/repl-simple.js
+180 silly gunzTarPerm modified mode [ 'node-browser-builtins/test/browser/repl-simple.js', 488, 492 ]
+181 silly gunzTarPerm extractEntry node-browser-builtins/test/browser/stream2-readable-non-empty-end.js
+182 silly gunzTarPerm modified mode [ 'node-browser-builtins/test/browser/stream2-readable-non-empty-end.js',
+182 silly gunzTarPerm   488,
+182 silly gunzTarPerm   492 ]
+183 silly gunzTarPerm extractEntry node-browser-builtins/test/browser/readline-simple.js
+184 silly gunzTarPerm modified mode [ 'node-browser-builtins/test/browser/readline-simple.js',
+184 silly gunzTarPerm   488,
+184 silly gunzTarPerm   492 ]
+185 silly gunzTarPerm extractEntry node-browser-builtins/test/browser/stream2-readable-wrap-empty.js
+186 silly gunzTarPerm modified mode [ 'node-browser-builtins/test/browser/stream2-readable-wrap-empty.js',
+186 silly gunzTarPerm   488,
+186 silly gunzTarPerm   492 ]
+187 silly gunzTarPerm extractEntry node-browser-builtins/test/browser/querystring-simple.js
+188 silly gunzTarPerm modified mode [ 'node-browser-builtins/test/browser/querystring-simple.js',
+188 silly gunzTarPerm   488,
+188 silly gunzTarPerm   492 ]
+189 silly gunzTarPerm extractEntry node-browser-builtins/test/browser/stream2-set-encoding.js
+190 silly gunzTarPerm modified mode [ 'node-browser-builtins/test/browser/stream2-set-encoding.js',
+190 silly gunzTarPerm   488,
+190 silly gunzTarPerm   492 ]
+191 silly gunzTarPerm extractEntry node-browser-builtins/test/browser/process-simple.js
+192 silly gunzTarPerm modified mode [ 'node-browser-builtins/test/browser/process-simple.js',
+192 silly gunzTarPerm   488,
+192 silly gunzTarPerm   492 ]
+193 silly gunzTarPerm extractEntry node-browser-builtins/test/browser/stream2-transform.js
+194 silly gunzTarPerm modified mode [ 'node-browser-builtins/test/browser/stream2-transform.js',
+194 silly gunzTarPerm   488,
+194 silly gunzTarPerm   492 ]
+195 silly gunzTarPerm extractEntry node-browser-builtins/test/browser/path-simple.js
+196 silly gunzTarPerm modified mode [ 'node-browser-builtins/test/browser/path-simple.js', 488, 492 ]
+197 silly gunzTarPerm extractEntry node-browser-builtins/test/browser/stream2-unpipe-drain.js
+198 silly gunzTarPerm modified mode [ 'node-browser-builtins/test/browser/stream2-unpipe-drain.js',
+198 silly gunzTarPerm   488,
+198 silly gunzTarPerm   492 ]
+199 silly gunzTarPerm extractEntry node-browser-builtins/test/browser/net-simple.js
+200 silly gunzTarPerm modified mode [ 'node-browser-builtins/test/browser/net-simple.js', 488, 492 ]
+201 silly gunzTarPerm extractEntry node-browser-builtins/test/browser/stream2-unpipe-leak.js
+202 silly gunzTarPerm modified mode [ 'node-browser-builtins/test/browser/stream2-unpipe-leak.js',
+202 silly gunzTarPerm   488,
+202 silly gunzTarPerm   492 ]
+203 silly gunzTarPerm extractEntry node-browser-builtins/test/browser/fs-simple.js
+204 silly gunzTarPerm modified mode [ 'node-browser-builtins/test/browser/fs-simple.js', 488, 492 ]
+205 silly gunzTarPerm extractEntry node-browser-builtins/test/browser/stream2-writable.js
+206 silly gunzTarPerm modified mode [ 'node-browser-builtins/test/browser/stream2-writable.js',
+206 silly gunzTarPerm   488,
+206 silly gunzTarPerm   492 ]
+207 silly gunzTarPerm extractEntry node-browser-builtins/test/browser/events-remove-listeners.js
+208 silly gunzTarPerm modified mode [ 'node-browser-builtins/test/browser/events-remove-listeners.js',
+208 silly gunzTarPerm   488,
+208 silly gunzTarPerm   492 ]
+209 silly gunzTarPerm extractEntry node-browser-builtins/test/browser/string-decoder-simple.js
+210 silly gunzTarPerm modified mode [ 'node-browser-builtins/test/browser/string-decoder-simple.js',
+210 silly gunzTarPerm   488,
+210 silly gunzTarPerm   492 ]
+211 silly gunzTarPerm extractEntry node-browser-builtins/test/browser/events-listeners.js
+212 silly gunzTarPerm modified mode [ 'node-browser-builtins/test/browser/events-listeners.js',
+212 silly gunzTarPerm   488,
+212 silly gunzTarPerm   492 ]
+213 silly gunzTarPerm extractEntry node-browser-builtins/test/browser/timers-simple.js
+214 silly gunzTarPerm modified mode [ 'node-browser-builtins/test/browser/timers-simple.js',
+214 silly gunzTarPerm   488,
+214 silly gunzTarPerm   492 ]
+215 silly gunzTarPerm extractEntry node-browser-builtins/test/browser/domain-simple.js
+216 silly gunzTarPerm modified mode [ 'node-browser-builtins/test/browser/domain-simple.js',
+216 silly gunzTarPerm   488,
+216 silly gunzTarPerm   492 ]
+217 silly gunzTarPerm extractEntry node-browser-builtins/test/browser/tls-simple.js
+218 silly gunzTarPerm modified mode [ 'node-browser-builtins/test/browser/tls-simple.js', 488, 492 ]
+219 silly gunzTarPerm extractEntry node-browser-builtins/test/browser/dns-simple.js
+220 silly gunzTarPerm modified mode [ 'node-browser-builtins/test/browser/dns-simple.js', 488, 492 ]
+221 silly gunzTarPerm extractEntry node-browser-builtins/test/browser/tty-simple.js
+222 silly gunzTarPerm modified mode [ 'node-browser-builtins/test/browser/tty-simple.js', 488, 492 ]
+223 silly gunzTarPerm extractEntry node-browser-builtins/test/browser/dgram-simple.js
+224 silly gunzTarPerm modified mode [ 'node-browser-builtins/test/browser/dgram-simple.js',
+224 silly gunzTarPerm   488,
+224 silly gunzTarPerm   492 ]
+225 silly gunzTarPerm extractEntry node-browser-builtins/test/browser/url-simple.js
+226 silly gunzTarPerm modified mode [ 'node-browser-builtins/test/browser/url-simple.js', 488, 492 ]
+227 silly gunzTarPerm extractEntry node-browser-builtins/test/browser/cluster-simple.js
+228 silly gunzTarPerm modified mode [ 'node-browser-builtins/test/browser/cluster-simple.js',
+228 silly gunzTarPerm   488,
+228 silly gunzTarPerm   492 ]
+229 silly gunzTarPerm extractEntry node-browser-builtins/test/browser/util-inspect.js
+230 silly gunzTarPerm modified mode [ 'node-browser-builtins/test/browser/util-inspect.js',
+230 silly gunzTarPerm   488,
+230 silly gunzTarPerm   492 ]
+231 silly gunzTarPerm extractEntry node-browser-builtins/test/browser/child-process-simple.js
+232 silly gunzTarPerm modified mode [ 'node-browser-builtins/test/browser/child-process-simple.js',
+232 silly gunzTarPerm   488,
+232 silly gunzTarPerm   492 ]
+233 silly gunzTarPerm extractEntry node-browser-builtins/test/browser/util-is.js
+234 silly gunzTarPerm modified mode [ 'node-browser-builtins/test/browser/util-is.js', 488, 492 ]
+235 silly gunzTarPerm extractEntry node-browser-builtins/test/browser/stream-unshift-read-race.js
+236 silly gunzTarPerm modified mode [ 'node-browser-builtins/test/browser/stream-unshift-read-race.js',
+236 silly gunzTarPerm   488,
+236 silly gunzTarPerm   492 ]
+237 silly gunzTarPerm extractEntry node-browser-builtins/test/node/node-test.js
+238 silly gunzTarPerm modified mode [ 'node-browser-builtins/test/node/node-test.js', 488, 492 ]
+239 silly gunzTarPerm extractEntry src/denodify-core.js
+240 silly gunzTarPerm modified mode [ 'src/denodify-core.js', 488, 492 ]
+241 silly gunzTarPerm extractEntry src/path.js
+242 silly gunzTarPerm modified mode [ 'src/path.js', 488, 492 ]
+243 silly gunzTarPerm extractEntry src/url.js
+244 silly gunzTarPerm modified mode [ 'src/url.js', 488, 492 ]
+245 silly lockFile b7035e8d--npm-denodify-core-0-1-8-package tar:///home/michieljoris/.npm/denodify-core/0.1.8/package
+246 silly lockFile b7035e8d--npm-denodify-core-0-1-8-package tar:///home/michieljoris/.npm/denodify-core/0.1.8/package
+247 silly lockFile 78dfc123-80120-0-4737190611194819-tmp-tgz tar:///home/michieljoris/tmp/npm-25008-Dmq43nTF/1416881780120-0.4737190611194819/tmp.tgz
+248 silly lockFile 78dfc123-80120-0-4737190611194819-tmp-tgz tar:///home/michieljoris/tmp/npm-25008-Dmq43nTF/1416881780120-0.4737190611194819/tmp.tgz
+249 silly lockFile 3a52ce78- .
+250 silly lockFile 3a52ce78- .
+251 silly publish { name: 'denodify-core',
+251 silly publish   description: 'nodejs core modules adapted for denodify',
+251 silly publish   homepage: 'https://github.com/michieljoris/denodify-core',
+251 silly publish   keywords: [],
+251 silly publish   repository:
+251 silly publish    { type: 'git',
+251 silly publish      url: 'https://github.com/michieljoris/denodify-core.git' },
+251 silly publish   author:
+251 silly publish    { name: 'Michiel van Oosten',
+251 silly publish      email: 'mail@axion5.net',
+251 silly publish      url: 'http://www.axion5.net/' },
+251 silly publish   licenses:
+251 silly publish    [ { type: 'MIT',
+251 silly publish        url: 'http://github.com/michieljoris/denodify-core/blob/master/LICENSE.txt' } ],
+251 silly publish   main: 'src/denodify-core.js',
+251 silly publish   bin: {},
+251 silly publish   engines: { node: '>= 0.6.x' },
+251 silly publish   dependencies: { 'fs-extra': '0.8.x' },
+251 silly publish   devDependencies: { docco: '*' },
+251 silly publish   private: false,
+251 silly publish   scripts: { docs: 'node node_modules/.bin/docco src/denodify-core.js' },
+251 silly publish   version: '0.1.8',
+251 silly publish   readme: 'project\n--------\n\n# STUB\n\nThis is a stub for future work to be done on adapting the nodejs core modules as\nfound in\n[node-browser-builtins](https://github.com/alexgorbatchev/node-browser-builtins)\nto be used with [denodify](http://github.com/michieljoris/denodify).\n\nThe whole node-browser-builtins repo is added as is for now to this repo till\nI\'ve adapted them.\n\n[Description]\n\nInstall:\n\n    npm install denodify-core\n\t\nAdd dependency to your project with\n\n    "denodify-core": "git@github.com/Michieljoris/denodify-core"\n\t\nor\n\n\t"denodify-core": "*"\n\nRequire in a module:\n\n    var denodify-core = require(\'denodify-core\');\n\nUse:\n\nSee [documentation](https://rawgithub.com/Michieljoris/denodify-core/master/docs/denodify-core.html).\n\n\n\n\n\n\n',
+251 silly publish   readmeFilename: 'README.md',
+251 silly publish   bugs: { url: 'https://github.com/michieljoris/denodify-core/issues' },
+251 silly publish   _id: 'denodify-core@0.1.8',
+251 silly publish   _shasum: 'ef93ae334e3848cfbfb76fb6ca122e75bb227f44',
+251 silly publish   _from: '.' }
+252 error need auth auth and email required for publishing
+252 error need auth You need to authorize this machine using `npm adduser`
+253 error System Linux 3.13.0-32-generic
+254 error command "/home/michieljoris/bin/node" "/home/michieljoris/bin/npm" "publish"
+255 error cwd /media/michieljoris/d5099508-7d17-4aea-ac80-ac38100b9447/mysrc/javascript/denodify-core
+256 error node -v v0.10.28
+257 error npm -v 1.4.9
+258 error code ENEEDAUTH
+259 verbose exit [ 1, true ]
